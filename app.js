@@ -28,5 +28,5 @@ app.use("/api/users", userRoute);
 app.use("/api/house", houseRoute);
 
 app.listen(process.env.PORT || 5000, () =>
-	console.log("listening on the port sha ")
+	console.log("listening on the port sha or port ")
 );
